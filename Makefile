@@ -2,7 +2,7 @@
 
 CLAUDE_DIR := $(HOME)/.claude
 TARGET := $(CLAUDE_DIR)/CLAUDE.md
-SOURCE := $(CURDIR)/CLAUDE.md
+SOURCE := $(CURDIR)/README.txt
 
 install:
 	@mkdir -p $(CLAUDE_DIR)

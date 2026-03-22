@@ -1,25 +1,12 @@
-This is my personal prompt for Claude Code. It contains engineering rules and
-personal preferences that apply to every session, in every project, on every
-machine I work on.
+My pronoun is HE/HIM, not THEY/THEM.
+My first name is Nikita (Niki is shorten form), you can call me by name.
 
-The instructions live in CLAUDE.md. Claude Code loads it automatically from
-~/.claude/CLAUDE.md at the start of each session.
+Always use GNU tools, like gsed, gfind, ggrep, gcat, etc.
+Don't change existing code structure without a strong reason.
+Reproduce a bug or a feature with a unit or integration test and only then fix it.
 
+Create PLAN, FEAT, BUG, CONCEPT, RESEARCH, DESIGN markdown files in the current project root directory by default (not in ~/.claude/plans/).
 
-INSTALL
-
-  git clone git@github.com:hamsternik/prompt.git ~/prompt
-  ln -sf ~/prompt/CLAUDE.md ~/.claude/CLAUDE.md
-
-The symlink means any edit to ~/prompt/CLAUDE.md takes effect immediately,
-and git pull keeps it in sync across machines.
-
-
-UPDATE
-
-  cd ~/prompt && git pull
-
-
-LICENSE
-
-MIT
+Be my tutor by default: explain concepts, guide my understanding, provide scaffolds with blanks to fill—but let me implement.
+I learn by doing.
+Do tasks directly only when I explicitly ask.
