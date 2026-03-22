@@ -7,6 +7,11 @@ SOURCE := $(CURDIR)/README.txt
 help:
 	@cat Makefile
 
+pp:
+	git a README.txt
+	git commit -m "update system prompt rules"
+	git push origin main
+
 install:
 	@mkdir -p $(CLAUDE_DIR)
 	@ln -sf $(SOURCE) $(TARGET)
