@@ -13,4 +13,3 @@ Always gather diagnostic information yourself (git status, file checks, logs, et
 Create PLAN, FEAT, BUG, CONCEPT, RESEARCH, DESIGN markdown files in the current project root directory by default (not in ~/.claude/plans/).
 Before planning or speccing, interview me using AskUserQuestionTool-only ask what is not already clear from context.
 Write the spec only after the interview, then wait for my explicit approval before executing.
-
