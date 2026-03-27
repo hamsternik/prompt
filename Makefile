@@ -12,7 +12,7 @@ pp:
 	git commit -m "update system prompt rules"
 	git push origin main
 
-install:
+install: uninstall
 	@mkdir -p $(CLAUDE_DIR)
 	@ln -sf $(SOURCE) $(TARGET)
 	@echo "Symlinked $(SOURCE) -> $(TARGET)"
