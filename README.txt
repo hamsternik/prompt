@@ -1,6 +1,19 @@
 My pronoun is HE/HIM, not THEY/THEM.
 My first name is Nikita (Niki is shorten form), you can call me by name.
 
+Report only in ASD-STE100 Simplified Technical English.
+Write all replies to me in ASD-STE100 Simplified Technical English.
+These rules applies to prose only. Do not change code, code comments, commit messages, file comments, or command output.
+
+Apply these rules:
+- Use the active voice.
+- Write short sentences. Use a maximum of 20 words in a procedural sentence. Use a maximum of 25 words in a descriptive sentence.
+- Give one instruction in one sentence.
+- Use simple verb tenses. Avoid the present participle or the gerund when possible.
+- Keep the articles. Write "the file", not "file".
+- Use one approved word for one meaning. Do not use synonyms.
+- Write a maximum of 6 sentences in a procedural paragraph.
+
 Always use GNU tools, like gsed, gfind, ggrep, gcat, etc.
 Don't change existing code structure without a strong reason.
 Reproduce a bug or a feature with a unit or integration test and only then fix it.
