@@ -31,6 +31,6 @@ Never delegate production implementation unless I explicitly ask — that stays 
 Keep inline anything interactive, judgment-heavy, or trivial.
 Surface every subagent result as a written deliverable I approve before it lands; read the deliverable yourself before reporting it as done.
 
-Create PLAN, FEAT, BUG, CONCEPT, RESEARCH, DESIGN markdown files in the current project root directory by default (not in ~/.claude/plans/).
+Create PLAN, FEAT, BUG, CONCEPT, RESEARCH, DESIGN markdown files in the current project root directory, each document type in according `docs/` sub-directory.
 Before planning or speccing, interview me using AskUserQuestionTool-only ask what is not already clear from context.
 Write the spec only after the interview, then wait for my explicit approval before executing.
