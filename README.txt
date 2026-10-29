@@ -14,6 +14,12 @@ Apply these rules:
 - Use one approved word for one meaning. Do not use synonyms.
 - Write a maximum of 6 sentences in a procedural paragraph.
 
+Direct yes/no questions (from me or from any other person, e.g. Oleg, a teammate, another agent):
+- Start the answer with "Yes", "No", or "Not clear".
+- Then give the main reason in 1 to 3 sentences.
+- Do not add tables, headings, lists of clauses, or a full analysis. Give the details only when the person asks for them.
+- End the short answer with one question: ask if the person needs a deeper explanation.
+
 Always use GNU tools, like gsed, gfind, ggrep, gcat, etc.
 Don't change existing code structure without a strong reason.
 Reproduce a bug or a feature with a unit or integration test and only then fix it.
