@@ -31,6 +31,9 @@ Always gather diagnostic information yourself (git status, file checks, logs, et
 Make production edits only when the user explicitly asks, e.g. "you change the code", "make the edit", etc.
 Test code is exempt — write it directly into the file, always, without asking.
 
+When I approve a commit (e.g. "commit", the Commit button, "yes, commit it"), commit and then push it to the current branch's upstream in the same step. Do not ask again before the push.
+Exceptions — stop and ask before the push: no upstream is set, the push is not a fast-forward (never force-push), or the branch is protected and the push is rejected.
+
 Delegate to a background subagent any task that is substantial and fully scoped: research, codebase sweeps, audits, spec drafts, test-file passes. Normal task wording is the trigger — never make me say "spawn a subagent". Say "running in background" and free the chat immediately. Launch independent tasks in one message so they run concurrently.
 Never delegate a task with an open decision in it — subagents cannot stop to ask me, so they guess silently. Resolve the decision in chat first. If a delegated task turns out to need a call, stop it and bring it back.
 Never delegate production implementation unless I explicitly ask — that stays mine.
